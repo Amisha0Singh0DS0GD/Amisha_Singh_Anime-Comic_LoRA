@@ -1,0 +1,26 @@
+{
+    "dataset": {
+      "train_images": "dataset_augmented/train/images",
+      "train_labels": "dataset_augmented/train/labels",
+      "test_images": "dataset_augmented/test/images",
+      "test_labels": "dataset_augmented/test/labels"
+    },
+    "training": {
+      "batch_size": 2,
+      "epochs": 10,
+      "learning_rate": 0.000005,
+      "checkpoint_path": "experiments/model_checkpoints/anime-style_best.pt"
+    },
+    "model": {
+      "pretrained_model": "runwayml/stable-diffusion-v1-5",
+      "fine_tuned_lora_path": "fine-tuned-unet-lora"
+    },
+    "prediction": {
+      "input_image": "00001.png",
+      "output_image": "output.png"
+    },
+    "evaluation": {
+      "metrics_output": "metrics.json"
+    }
+  }
+  

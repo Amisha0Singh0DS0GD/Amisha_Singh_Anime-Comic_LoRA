@@ -1,0 +1,15 @@
+transformers
+datasets
+torch
+torchvision
+diffusers
+numpy
+pandas
+scikit-learn
+opencv-python
+tqdm
+argparse
+json5
+Pillow
+accelerate
+xformers

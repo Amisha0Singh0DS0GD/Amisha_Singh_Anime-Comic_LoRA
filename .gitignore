@@ -1,0 +1,20 @@
+# Ignore dataset folders but keep dataset.md
+data/augumented_data/
+data/original_data/
+data/test_dataset/
+
+# Ignore model checkpoints
+experiments/model_checkpoints/
+
+# Ignore logs and temporary files
+experiments/anime-style_training_log.csv/
+
+# Ignore fine-tuned models
+fine-tuned-unet-lora/
+
+# Ignore virtual environments (if any)
+anime-env/
+venv/
+
+# Ignore system-generated files
+.DS_Store
